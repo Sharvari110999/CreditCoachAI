@@ -90,13 +90,13 @@ def handle_advisory(question: str, context: str):
 def handle_risk_assessment(question: str, context: str):
     """
     Handle risk_assessment-type queries.
-    
+
     Args:
         question: The user's question
-        context: Retrieved context from Returns:
-        L RAG
-    
-   LM response
+        context: Retrieved context from RAG
+
+    Returns:
+        LLM response
     """
     llm = get_llm()
     
